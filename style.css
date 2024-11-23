@@ -1,0 +1,165 @@
+:root {
+    --primary-color: #ff5733;
+    --secondary-color:#dfdfdf;
+    --white: #ffffff;
+    --black: #000000;
+  }
+.icon{
+   margin-right: 10px;
+}
+.active  {
+    background-color: var(--secondary-color) ;
+    color: var(--primary-color);
+}
+.navbar-nav .nav-link {
+    padding: 10px;
+    color: var(--black)!important;
+}
+ .navbar-nav .active>.nav-link{
+    color: var(--primary-color) !important;
+}
+.back{
+    color: var(--white);
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.back a:focus{
+    text-decoration: none;
+}
+.top-header{
+    background-color: var(--primary-color);
+    height: 50px;
+    color: var(--white);
+    position: relative;
+    display: flex;
+   
+}
+.left-div{
+    float: left;
+    width: 50%;
+}
+.right-div{
+    float: right;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.top-header .head-section{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+.top-header .head-icon{
+    position: relative;
+    top: 50%;
+    margin-right: 20px;
+    -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.top-header .head-icon i{
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    padding: 7px;
+    font-size: 25px;
+    color: var(--white);
+}
+.card{
+    margin: 10px;
+    background-color: var(--white);
+    border-radius: 20px 20px 20px 20px;
+}
+.card-body
+{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px!important;
+}
+.employee-title{
+    float: left;
+    display: flex;
+    top: 50%;
+    color: var(--black);
+    -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    position: absolute;
+margin-left: 10px;
+}
+
+.employee-selection{
+    float: right;
+    padding: 0px;
+}
+.select-option{
+float: right;
+padding: 10px;
+width: 50%;
+border-radius: 20px;
+}
+.employee-info label{
+    color: var(--primary-color);
+    padding: 0!important;
+    margin-bottom: 0px;
+}
+.employee-info .form-group{
+    margin-bottom: 0px;
+}
+.employee-info .horizontal-line{
+    height: 1px;
+    background-color: var(--primary-color);
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.update-group{
+    width: 100%;
+}
+.update-btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    border-color: var(--white);
+    border-radius: 10px;
+}
+.permission-card label{
+    color: var(--primary-color);
+    padding: 0!important;
+    margin-bottom: 0px;
+}
+.permission-card .horizontal-line{
+    height: 1px;
+    background-color: var(--primary-color);
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.check-option{
+    float: right;
+    padding: 5px;
+    }
+    .permission-card .form-group{
+        margin-bottom: 0px;
+    }
+    .permission-card .form-group label{
+        color: var(--black);
+        padding: 0!important;
+        margin-bottom: 0px;
+    }
+    input[type='checkbox'] {
+        width:20px;
+        height:20px;
+        background:white;
+        border-radius:5px;
+        border:2px solid #555;
+    }
+    canvas{
+        margin-left: 10px;
+    }
